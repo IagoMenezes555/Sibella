@@ -1,0 +1,14 @@
+.text{
+
+    span{
+        font-size: 150px;
+        color: var(--primary-color);
+        text-shadow: black 5px 10px 2px;
+        transition: 800ms;
+    }
+    span:hover{
+        font-size: 170px;
+        text-shadow: black 7px 12px 4px;
+        cursor: context-menu;
+    }
+}

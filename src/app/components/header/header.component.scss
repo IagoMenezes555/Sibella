@@ -13,10 +13,10 @@ header {
     span {
       font-size: 30px;
       font-weight: bold;
+      transition: 800ms;
     }
 
     span:hover {
-      transition: 800ms;
       font-size: 35px;
       cursor: context-menu;
     }
@@ -28,10 +28,10 @@ header {
       img {
         height: 30px;
         width: 30px;
+        transition: 800ms;
       }
 
       img:hover {
-        transition: 800ms;
         height: 35px;
         width: 35px;
         cursor: pointer;
