@@ -1,0 +1,41 @@
+header {
+  background-color: var(--primary-color);
+  padding: 10px;
+
+  .toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 10px;
+    height: 40px;
+    color: white;
+
+    span {
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    span:hover {
+      transition: 800ms;
+      font-size: 35px;
+      cursor: context-menu;
+    }
+
+    button {
+      background-color: transparent;
+      border: none;
+
+      img {
+        height: 30px;
+        width: 30px;
+      }
+
+      img:hover {
+        transition: 800ms;
+        height: 35px;
+        width: 35px;
+        cursor: pointer;
+      }
+    }
+  }
+}
