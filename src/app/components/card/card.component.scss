@@ -1,0 +1,39 @@
+.card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 15px 2px var(--shadow-color);
+  width: 200px;
+  transition: 800ms;
+
+  .img {
+    display: flex;
+    justify-content: center;
+
+    img {
+      height: 200px;
+      width: 200px;
+    }
+  }
+
+  .name {
+    display: flex;
+    justify-content: center;
+    word-wrap: break-word;
+  }
+
+  .especifications {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+
+    span {
+      font-size: 13px;
+    }
+  }
+}
+
+.card:hover {
+  padding: 20px;
+}

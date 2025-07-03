@@ -1,11 +1,10 @@
-main{
-    border: 2px rgb(161, 161, 161) solid;
-    width: 1300px;
-    box-shadow: rgb(161, 161, 161) 0px 0px 15px 2px;
+main {
+  width: 1300px;
+  box-shadow: var(--shadow-color) 0px 0px 15px 2px;
 
-    .main{
-        display: flex;
-        flex-direction: column;
-        margin: 20px;
-    }
+  .main {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
 }
